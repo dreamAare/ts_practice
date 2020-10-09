@@ -1,0 +1,23 @@
+{
+  "name": "ts_practice",
+  "version": "1.0.0",
+  "description": "ts_practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreamAare/ts_practice.git"
+  },
+  "author": "lrz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dreamAare/ts_practice/issues"
+  },
+  "homepage": "https://github.com/dreamAare/ts_practice#readme",
+  "dependencies": {
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  }
+}
