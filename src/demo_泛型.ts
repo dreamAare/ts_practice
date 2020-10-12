@@ -7,11 +7,11 @@ function add<T, P>(a: T, b: P, arr: T[]) {
 //   add<number, string>(1, "2", [1])
 // );
 
-interface Girl {
+interface Girls {
   name: string;
 }
-class SelectGirl<T extends Girl> {
-  constructor(private girls: T[]) {}
+class SelectGirl<T extends Girls> {
+  constructor(private girls: T[]) { }
   say(index: number): string {
     return this.girls[index].name;
   }
