@@ -54,20 +54,27 @@
 // console.log(teacher.name);
 
 // 4. 类的getter, setter, static 静态变量和静态方法
-class Xiaojiejie {
-  constructor(private age: number) {
-    this.age = age;
-  }
-  static str: string = "i love you";
-  get _age() {
-    return this.age;
-  }
-  set _age(age: number) {
-    this.age = age;
-  }
-}
+// class Xiaojiejie {
+//   constructor(private age: number) {
+//     this.age = age;
+//   }
+//   static str: string = "i love you";
+//   get _age() {
+//     return this.age;
+//   }
+//   set _age(age: number) {
+//     this.age = age;
+//   }
+// }
 
-const rmp = new Xiaojiejie(28);
-rmp._age = 12;
-console.log(rmp._age);
-console.log(Xiaojiejie.str);
+// const rmp = new Xiaojiejie(28);
+// rmp._age = 12;
+// console.log(rmp._age);
+// console.log(Xiaojiejie.str);
+
+// 5. 类中的只读属性，抽象类
+// class Person1 {
+//   constructor(public readonly name: string) {}
+// }
+// const lrz1 = new Person1("lrz");
+// console.log(lrz1.name);
