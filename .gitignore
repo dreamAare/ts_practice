@@ -41,7 +41,7 @@ build/Release
 node_modules/
 jspm_packages/
 .history
-
+.parcel-cache
 # TypeScript v1 declaration files
 typings/
 
